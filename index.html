@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>Restuarent Webpage Task</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel='stylesheet'  href='style.css'>
+    <script src='script.js'></script>
+</head>
+<body>
+    <form action="">
+        <h3>Yummy Restaurent</h3>
+        <section class="column">
+            <div class="input">
+                <label for="firstname">Firstname</label>
+                <input type="text" name="firstname" id="firstname"/>
+            </div>
+            <br>
+            <div class="input">
+                <label for="lastname">Lastname</label>
+                <input type="text" name="lastname" id="lastname"/>
+            </div>
+            <br>
+            <div class="input">
+                <label for="DOB">DOB</label>
+                <input type="date" name="DOB" id="DOB"/>
+            </div>
+            <br>
+            <div class="input">
+                <label for="city">City</label>
+                <input type="text" list="cities" name="city" id="city"/>
+                <datalist id="cities">
+                    <option value="pune"></option>
+                    <option value="hydrabad"></option>
+                    <option value="chennai"></option>
+                    <option value="mysor"></option>
+                    <option value="delhi"></option>
+                    <option value="mumbai"></option>
+                </datalist>
+            </div>
+            <br>
+            <div class="input">
+                <label for="address">Address</label>
+                <textarea name="address" id="address" cols="20" rows="10"></textarea>
+            </div>
+            <br>
+            <div class="input">
+                <label for="mobilenumber">Mobile Number</label>
+                <input type="text" name="mobilenumber" id="mobilenumber"/>
+            </div>
+            <br>
+        </section>
+        <section>
+            <button type="reset">Reset</button>
+            <button type="submit">Submit</button>
+        </section>
+    </form>
+</body>
+</html>

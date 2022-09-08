@@ -1,0 +1,73 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    display: grid;
+    place-items: center;
+    width: 100%;
+    height: 100vh;
+  }
+  
+  h3 {
+    text-decoration: underline;
+  }
+  
+  form {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 2rem;
+    background-color: yellowgreen;
+    padding: 2rem;
+  }
+  
+  .column {
+    max-width: 600px;
+    width: 120vw;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 1rem 2rem;
+    color: black;
+  }
+  
+  .input {
+    display: grid;
+    grid-template-columns: 80px auto;
+  }
+
+  input{
+    padding: 0.25rem 0.5rem;
+        height: max-content;
+        outline: none;
+        border: none;
+        color: inherit;
+        border: 1px solid #fff;
+        background-color: transparent;
+  }
+
+  datalist {
+    display: none;
+  }
+  
+  textarea {
+    color: black;
+    resize: none;
+    background-color: transparent;
+    border: 1px solid #fff;
+  }
+   
+  button {
+    border: none;
+    outline: none;
+    border: 1px solid #000;
+    background-color: yellow;
+    padding: 0.4rem 1rem ;
+    
+  }
+  
+
+ 
